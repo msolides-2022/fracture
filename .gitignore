@@ -1,0 +1,23 @@
+.DS_Store
+
+01-DCB/Crack-working.ipynb
+
+*.pvd
+*.vtu
+*.xdmf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# FEniCS
+jitfailure*
+
+
+# xdmf paraview
+*.h5
+
+# seb N local files
+*-seb*
+
+__pycache__
+
