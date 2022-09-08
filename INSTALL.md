@@ -1,5 +1,7 @@
 # How to install FEniCS
 
+## On Linux and Macosx using Anaconda
+
 Instructions on how to install FEniCS-dolfinx are available https://fenicsproject.org/download/.
 
 We suggest and support the installation method using anaconda. Anaconda is a useful package manager for python. 
@@ -25,7 +27,7 @@ After the first installation, you need only step 4 above (`conda activate fenics
 
 You can find further help on conda [here](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
 
-### On windows
+## On Windows
 
 FEniCS is not distributed for Windows boxes. For Windows 10, the preferred option is the [Windows subsystem for linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 Install the Ubuntu distribution as WSL, then refer to the section above inside the Ubuntu WSL
@@ -38,13 +40,13 @@ Then inside the ubuntu virtual machine follows the instruction for conda install
 You can run python programs jupyter notebooks and FEniCS on online servers. The basic service is free and can be a solution if all other installation systems fail.
 
 * You need a google account
-* You can use this example to start https://colab.research.google.com/drive/1K0tQ4_RGuY-5YaHLUHTWqJEWGvrte9n0?usp=sharing
+* You can use this example to starthttps://colab.research.google.com/github/fem-on-colab/fem-on-colab/blob/main/fenicsx/test-dolfinx.ipynb#scrollTo=infectious-train
 * You can save the notebooks and your working environment on your google drive
 
 We suggest to use this only as emergency solution
 * *advantages:* You do not need to install anything on your machine and you do note use the resources of your machine
 
-* *disadvantages:* It can be slow (especially Azure, colab seems better). You can use only jupyter notebooks, you share your date with google or microsoft, you do not a full control of the system, you need to be online with a good network connection.
+* *disadvantages:* It can be slow. You can use only jupyter notebooks, you share your data with google or microsoft, you do not a full control of the system, you need to be online with a good network connection.
 
 ## How to test the installation
 

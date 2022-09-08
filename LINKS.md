@@ -3,11 +3,12 @@ You find below some useful online references classified by topic
 # FEniCS
 * Website https://fenicsproject.org
 * Documentation
-   1. First this tutorial, Chap 2 being the good starting point: https://fenicsproject.org/pub/tutorial/pdf/fenics-tutorial-vol1.pdf
-   2. https://fenicsproject.org/docs/dolfin/latest/python/index.html
-   3. https://fenics.readthedocs.io/en/latest/
+   1. First this tutorial, https://jorgensd.github.io/dolfinx-tutorial/
+   3. Documentation: https://docs.fenicsproject.org/dolfinx/v0.5.0/python/
    4. UFL: https://fenics.readthedocs.io/projects/ufl/en/latest/manual.html
-   5. Source https://bitbucket.org/fenics-project/dolfin/src/master/
+   5. Source https://github.com/FEniCS/dolfinx, see in particular
+      - demos: https://github.com/FEniCS/dolfinx/tree/main/python/demo
+      - tests: https://github.com/FEniCS/dolfinx/tree/main/python/test/unit
    6. Examples of application to solid mechanics by Jeremy Bleyer: https://comet-fenics.readthedocs.io/
 
  # Python
