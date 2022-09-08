@@ -15,8 +15,8 @@ The following install instruction work only on Linux on Macos. If you have Windo
 
 2. Open a new terminal and go to the directory containing the file `fenicsx-0.5.0.yaml` you find in this repository
 
-3. Create a new conda enviroment from the file `fenicsx-0.5.0.yaml.
-    ```conda env create -n fenicsx-test --file fenicsx-0.5.0.yml```
+3. Create a new conda enviroment from the file `fenicsx-0.5.0.yaml`.
+    ```conda env create --file fenicsx-0.5.0.yml```
 
 4. You have now installed fenics in the conda environment `fenicsx-0.5.0`. To use it you must activate the enviroment with the following command
     ```
