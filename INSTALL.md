@@ -13,22 +13,30 @@ The following install instruction work only on Linux on Macos. If you have Windo
         - Intel processors: https://repo.anaconda.com/archive/Anaconda3-2022.05-MacOSX-x86_64.pkg
         - M1 processors: https://repo.anaconda.com/archive/Anaconda3-2022.05-MacOSX-arm64.pkg
 
-2. Open a new terminal and go to the directory containing the file `fenicsx-0.5.0.yaml` you find in this repository
+2. Open a new terminal and go to the directory containing the file `fenicsx-0.5.1.yaml` you find in this repository
 
-3. Create a new conda enviroment from the file `fenicsx-0.5.0.yaml`
+3. You should be now in the 'base' environement and your command prompt should show '(base)'.
+To be sure to use updated version of the package and avoid furhter conflicts, let us update the `base` ennviroment with the following command:
+```
+conda update -n base -c defaults conda
+```
+
+4. Create a new conda enviroment from the file `fenicsx-0.5.1.yaml`
     ```
-    conda env create --file fenicsx-0.5.0.yml
+    conda env create --file fenicsx-0.5.1.yml --force
     ```
 
-4. You have now installed fenics in the conda environment `fenicsx-0.5.0`. To use it you must activate the enviroment with the following command
+5. You have now installed fenics in the conda environment `fenicsx-0.5.1`. To use it you must activate the enviroment with the following command
     ```
-    conda activate fenicsx-0.5.0
+    conda activate fenicsx-0.5.1
     ```
 
-After the first installation, you need only step 4 above (`conda activate fenicsx-0.5.0`) to use fenicsx on a terminal.
+After the first installation, you need only step 4 above (`conda activate fenicsx-0.5.1`) to use fenicsx on a terminal.
 
 You can find further help on conda [here](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
 
+Troubleshooting
+- 
 ## On Windows
 
 FEniCS is not distributed for Windows boxes. For Windows 10, the preferred option is the [Windows subsystem for linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
