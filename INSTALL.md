@@ -50,7 +50,7 @@ Then inside the ubuntu virtual machine follows the instruction for conda install
 You can run python programs jupyter notebooks and FEniCS on online servers. The basic service is free and can be a solution if all other installation systems fail.
 
 * You need a google account
-* You can use this example to starthttps://colab.research.google.com/github/fem-on-colab/fem-on-colab/blob/main/fenicsx/test-dolfinx.ipynb#scrollTo=infectious-train
+* You can use this example to start https://colab.research.google.com/github/fem-on-colab/fem-on-colab/blob/main/fenicsx/test-dolfinx.ipynb#scrollTo=infectious-train
 * You can save the notebooks and your working environment on your google drive
 
 We suggest to use this only as emergency solution
