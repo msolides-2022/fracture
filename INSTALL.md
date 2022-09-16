@@ -23,7 +23,7 @@ conda update -n base -c defaults conda
 
 4. Create a new conda enviroment from the file `fenicsx-0.5.1.yaml`
     ```
-    conda env create --file fenicsx-0.5.1.yml --force
+    conda env create --file fenicsx-0.5.1.yml 
     ```
 
 5. You have now installed fenics in the conda environment `fenicsx-0.5.1`. To use it you must activate the enviroment with the following command
@@ -35,8 +35,11 @@ After the first installation, you need only step 4 above (`conda activate fenics
 
 You can find further help on conda [here](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
 
-Troubleshooting
-- 
+### Troubleshooting
+- If you get `CondaValueError: prefix already exists: /Users/maurini/opt/anaconda3/envs/fenicsx-0.5.1` try with 
+    ```
+    conda env create --file fenicsx-0.5.1.yml --force
+    ```
 ## On Windows
 
 FEniCS is not distributed for Windows boxes. For Windows 10, the preferred option is the [Windows subsystem for linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
