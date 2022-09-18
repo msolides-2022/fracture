@@ -6,7 +6,14 @@ This repository collects the material to the class MU5MES02 of the Solid Mechani
     * Corrado Maurini (corrado.maurini@sorbonne-universite.fr)
     * Veronique Lazarus (veronique.lazarus@ensta-paris.fr)
     * Kostas Danas (kosdanas@gmail.com)
-    
-* You can find help on how to install and use FEniCS in [INSTALL.md](INSTALL.md)
+
+* We will use for this numerical tutorials the python finite element package `FEniCS/dolfinx` (version `0.5.1`). 
+
+* You can find help on how to install and use FEniCS in [INSTALL.md](INSTALL.md). 
 
 * You can find some links to online resources in the file [LINKS.md](LINKS.md)
+
+## Content
+
+ - `00-Mesh`: Example on how to generate a mesh with `gmsh` and use it in` dolfinx`
+ - `01-LinearElasticity`: Basic example on solving linear elasticity, including a crack singularity.
