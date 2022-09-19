@@ -16,4 +16,6 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
 
 - Install FEniCSx on your computer following `INSTALL.md`
 - Check that you can run without errors `00-Mesh/Mesh.ipynb` and `01-LinearElasticity/LinearElasticity.ipynb`
-- write the BVP corresponding to `01-LinearElasticity/LinearElasticity.ipynb`
+- Write the Boundary Value Problem corresponding to `01-LinearElasticity/LinearElasticity.ipynb`, including:
+   - strong formulation with Dirichlet and Neumann boundary conditions
+   - weak formulation 
