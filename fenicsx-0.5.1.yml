@@ -12,21 +12,22 @@ dependencies:
   - gmsh
   - python-gmsh
   - pythreejs
+  - ipyvtklink
+  - k3d
+  - ipywidgets
+  - imageio
+  - ipyvtklink  
+  - jupyterlab
+  - pyvista
+  - ipython 
 
   - pip:
-    - ipython 
     - black  
     - flake8 
     - autoflake  
     - pyaml
     - pandas
     - meshio
-    - k3d
-    - ipywidgets
-    - imageio
-    - ipyvtklink
     - json5
-    - jupyterlab
-    - pyvista
     - autopep8
     - wget
