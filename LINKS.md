@@ -4,7 +4,7 @@ You find below some useful online references classified by topic
 * Website https://fenicsproject.org
 * Documentation
    1. First this tutorial, https://jorgensd.github.io/dolfinx-tutorial/
-   3. Documentation: https://docs.fenicsproject.org/dolfinx/v0.5.0/python/
+   3. Documentation: https://docs.fenicsproject.org/dolfinx/v0.5.1/python/
    4. UFL: https://fenics.readthedocs.io/projects/ufl/en/latest/manual.html
    5. Source https://github.com/FEniCS/dolfinx, see in particular
       - demos: https://github.com/FEniCS/dolfinx/tree/main/python/demo

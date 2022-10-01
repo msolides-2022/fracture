@@ -75,6 +75,7 @@ from ufl import ds, dx, grad, inner
 
 from mpi4py import MPI
 from petsc4py.PETSc import ScalarType
+
 # -
 
 # We begin by using {py:func}`create_rectangle
@@ -84,9 +85,12 @@ from petsc4py.PETSc import ScalarType
 # $V$ on the mesh.
 
 # +
-msh = mesh.create_rectangle(comm=MPI.COMM_WORLD,
-                            points=((0.0, 0.0), (2.0, 1.0)), n=(32, 16),
-                            cell_type=mesh.CellType.triangle,)
+msh = mesh.create_rectangle(
+    comm=MPI.COMM_WORLD,
+    points=((0.0, 0.0), (2.0, 1.0)),
+    n=(32, 16),
+    cell_type=mesh.CellType.triangle,
+)
 V = fem.FunctionSpace(msh, ("Lagrange", 1))
 # -
 
@@ -102,9 +106,11 @@ V = fem.FunctionSpace(msh, ("Lagrange", 1))
 # function that returns `True` for points `x` on the boundary and
 # `False` otherwise.
 
-facets = mesh.locate_entities_boundary(msh, dim=1,
-                                       marker=lambda x: np.logical_or(np.isclose(x[0], 0.0),
-                                                                      np.isclose(x[0], 2.0)))
+facets = mesh.locate_entities_boundary(
+    msh,
+    dim=1,
+    marker=lambda x: np.logical_or(np.isclose(x[0], 0.0), np.isclose(x[0], 2.0)),
+)
 
 # We now find the degrees-of-freedom that are associated with the
 # boundary facets using {py:func}`locate_dofs_topological
@@ -137,7 +143,9 @@ L = inner(f, v) * dx + inner(g, v) * ds
 # <dolfinx.fem.LinearProblem.solve>` will compute a solution.
 
 # +
-problem = fem.petsc.LinearProblem(a, L, bcs=[bc], petsc_options={"ksp_type": "preonly", "pc_type": "lu"})
+problem = fem.petsc.LinearProblem(
+    a, L, bcs=[bc], petsc_options={"ksp_type": "preonly", "pc_type": "lu"}
+)
 uh = problem.solve()
 # -
 
