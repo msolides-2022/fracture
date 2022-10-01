@@ -15,14 +15,14 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
 ## First assigment (20/09/2022)
 
 - Install FEniCSx on your computer following `INSTALL.md`
-- Check that you can run without errors `00-Mesh/Mesh.ipynb` and `01-LinearElasticity/LinearElasticity.ipynb`
-- Write the Boundary Value Problem corresponding to `01-LinearElasticity/LinearElasticity.ipynb`, including:
+- Check that you can run without errors `00-Mesh.ipynb` and `01-LinearElasticity.ipynb`
+- Write the Boundary Value Problem corresponding to `01-LinearElasticity.ipynb`, including:
    - strong formulation with Dirichlet and Neumann boundary conditions
    - weak formulation 
 
 ## Second assigment (27/09/2022)
 
-<img src="plateBCs.png"
+<img src="figures/plateBCs.png"
      alt="Clamped plate with a crack"
      style="float: center; width:200px;" />
 
