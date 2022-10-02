@@ -17,3 +17,8 @@ This repository collects the material to the class MU5MES02 of the Solid Mechani
 
  - `00-Mesh`: Example on how to generate a mesh with `gmsh` and use it in` dolfinx`
  - `01-LinearElasticity`: Basic example on solving linear elasticity, including a crack singularity.
+
+
+You can run interactively the notebooks of this tutorials on Binder, by clicking here:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/msolides-2022/fracture/HEAD)
