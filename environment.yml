@@ -1,1 +1,33 @@
-fenicsx-0.5.1.yml
+name: fenicsx-0.5.1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fenics-dolfinx=0.5.1
+  - matplotlib
+  - numba 
+  - sympy 
+  - scipy 
+  - pip
+  - gmsh
+  - python-gmsh
+  - pythreejs
+  - ipyvtklink
+  - k3d
+  - ipywidgets
+  - imageio
+  - ipyvtklink  
+  - jupyterlab
+  - pyvista
+  - ipython 
+
+  - pip:
+    - black  
+    - flake8 
+    - autoflake  
+    - pyaml
+    - pandas
+    - meshio
+    - json5
+    - autopep8
+    - wget
