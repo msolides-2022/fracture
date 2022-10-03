@@ -28,3 +28,8 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
 
 - Modify the boundary conditions to simulate the case of the plate in the figure above. We consider the case where the horizontal displacement is null at the top. You can use the symmetry as done in the previous example to model only half of the plate. This configuration corresponds to an experimental test that will consider later in this DM. 
  
+ ## Third assigment (04/10/2022)
+
+- Estimate the SIF $K_I$ for $\Delta=1$ using the asymptotic field. 
+- Using dimensional analysis, show that $K_{I}=\frac{E \Delta}{\sqrt{l}}K^{*}(a/l)$
+
