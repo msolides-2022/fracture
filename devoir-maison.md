@@ -32,4 +32,5 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
 
 - Estimate the SIF $K_I$ for $\Delta=1$ using the asymptotic field. 
 - Using dimensional analysis, show that $K_{I}=\frac{E \Delta}{\sqrt{l}}K^{*}(a/l)$
+- Calculate $K_I$ for a PMMA plate (E = 3000 MPa, $\nu$ = 0.4) of sizes l = 10 cm,  2h = 45 cm, thickness e =2 mm, $a \in [0.5-3]$ cm
 
