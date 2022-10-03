@@ -30,5 +30,6 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
  
  ## Third assigment (04/10/2022)
 
--Estimate the SIF $K_I$ for $\Delta=1$ mm using the asymptotic field. 
--Show that $K_{I}=\frac{E \Delta}{\sqrt{l}}K^{*}(a/l) $
+- Estimate the SIF $K_I$ for $\Delta=1$ using the asymptotic field. 
+- Using dimensional analysis, show that $K_{I}=\frac{E \Delta}{\sqrt{l}}K^{*}(a/l)$
+
