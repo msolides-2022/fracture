@@ -30,8 +30,4 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
  
  ## Third assigment (04/10/2022)
 
-<img src="figures/plateBCs.png"
-     alt="Clamped plate with a crack"
-     style="float: center; width:200px;" />
-
-- Calculate the SIF for a unit loading using the asymptotic field to get KI 
+- For the plate of previous example, calculate the SIF for a unit loading using the asymptotic field to get KI.
