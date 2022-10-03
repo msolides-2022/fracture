@@ -30,5 +30,6 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
  
  ## Third assigment (04/10/2022)
 
-The plate of previous example is in  PMMA (E = 3000 MPa, ν = 0.4), the sizes are l = 10 cm,  2h = 45 cm, thickness =2 mm, 
--estimate the SIF $K_I$ for $\Delta=1$ mm using the asymptotic field.
+The plate of previous example is in  PMMA (E = 3000 MPa, ν = 0.4), the sizes are l = 10 cm,  2h = 45 cm, thickness =2 mm, $a \in [0.5-3] cm
+
+-Estimate the SIF $K_I$ for $\Delta=1$ mm using the asymptotic field.
