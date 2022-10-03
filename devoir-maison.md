@@ -28,3 +28,10 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
 
 - Modify the boundary conditions to simulate the case of the plate in the figure above. We consider the case where the horizontal displacement is null at the top. You can use the symmetry as done in the previous example to model only half of the plate. This configuration corresponds to an experimental test that will consider later in this DM. 
  
+ ## Third assigment (04/10/2022)
+
+<img src="figures/plateBCs.png"
+     alt="Clamped plate with a crack"
+     style="float: center; width:200px;" />
+
+- Calculate the SIF for a unit loading using the asymptotic field to get KI 
