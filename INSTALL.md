@@ -40,6 +40,13 @@ You can find further help on conda [here](https://docs.conda.io/projects/conda/e
     ```
     conda env create --file fenicsx-0.5.1.yml --force
     ```
+
+- If you have issues with pyvista try to do inside the notebook:
+```
+!pip install ipyvtklink==0.2.3
+```
+If this does not work, just do not use pyvista: comment the related lines of code, save to xdmf format and visualize results in paraview.
+
 ## On Windows
 
 FEniCS is not distributed for Windows boxes. For Windows 10, the preferred option is the [Windows subsystem for linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
