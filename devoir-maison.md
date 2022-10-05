@@ -30,6 +30,6 @@ max(0.2 * homework_grade + 0.8 * final_exam_grade, final_exam_grade)
  
  ## Third assigment (04/10/2022)
 
-- Using dimensional analysis, show that $$K_{I}=\frac{E \Delta}{\sqrt{l}}K^{*}(a/l)$$, where $K^{*}(a/l)$ is defined as the stress intensity factor for a plate of width $l^*=1$, Young modulus $E^*=1$, with an applied displacement $\Delta^*=1$.  
+- Using dimensional analysis, show that $K_{I}=\frac{E \Delta}{\sqrt{l}}K^{*}(a/l)$, where $K^{*}(a/l)$ is defined as the stress intensity factor for a plate of width $l^*=1$, Young modulus $E^*=1$, with an applied displacement $\Delta^*=1$.  
 - Calculate the SIF $K_I$ for a PMMA plate ($E = 3000 \mathrm{MPa}$, $\nu = 0.4$) of sizes $l = 10 \mathrm{cm}$,  2h = 45 cm, thickness $e=2 \mathrm{mm}$, one value of $a \in [0.5-3]$ \mathrm{cm}, loading $\Delta = 1\,\mathrm{mm}$
 
